@@ -1,0 +1,124 @@
+WCCILevent   (0), 2017.10.31 20:20:13.737, SYS,  INFO,        1, Manager Start, PROJ, SweetHome, V 3.11 - 3.11    linked at Jul 11 2012 23:21:55
+WCCILevent   (0), 2017.10.31 20:20:13.748, SYS,  INFO,      108, License information, Host information
+Hostname:   Igor-PC
+HW-code:    41810088914
+HW-version: 31100002
+
+WCCILevent   (0), 2017.10.31 20:20:13.751, SYS,  SEVERE,    105, Invalid license, Igor-PC: No license found
+WCCILevent   (0), 2017.10.31 20:20:13.752, SYS,  INFO,      108, License information, Using license file C:\Siemens\Automation\WinCC_OA\3.11\shield
+
+WCCILevent   (0), 2017.10.31 20:20:13.757, SYS,  INFO,        3, Trying to connect to, (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2017.10.31 20:20:13.759, SYS,  INFO,        4, Connected to, (SYS: 0 Data -num 0 CONN: 1) @ Igor-PC (127.0.0.1)
+WCCILevent   (0), 2017.10.31 20:20:13.762, PARAM,SEVERE,     71, DP does not exist, _Connections.Event.ManNums:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Event.StartTimes:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Event.HostNames:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Driver.ManNums:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Driver.StartTimes:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Driver.HostNames:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Data.ManNums:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Data.StartTimes:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Data.HostNames:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Ui.ManNums:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Ui.StartTimes:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Ui.HostNames:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Ctrl.ManNums:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Ctrl.StartTimes:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Ctrl.HostNames:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Ascii.ManNums:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Ascii.StartTimes:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Ascii.HostNames:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Api.ManNums:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Api.StartTimes:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Api.HostNames:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Device.ManNums:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.763, PARAM,SEVERE,     71, DP does not exist, _Connections.Device.StartTimes:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.764, PARAM,SEVERE,     71, DP does not exist, _Connections.Device.HostNames:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.764, PARAM,SEVERE,     71, DP does not exist, _Connections.Redu.ManNums:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.764, PARAM,SEVERE,     71, DP does not exist, _Connections.Redu.StartTimes:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.764, PARAM,SEVERE,     71, DP does not exist, _Connections.Redu.HostNames:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.764, PARAM,SEVERE,     71, DP does not exist, _Connections.Report.ManNums:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.764, PARAM,SEVERE,     71, DP does not exist, _Connections.Report.StartTimes:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.764, PARAM,SEVERE,     71, DP does not exist, _Connections.Report.HostNames:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.764, PARAM,SEVERE,     71, DP does not exist, _Connections.Dde.ManNums:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.764, PARAM,SEVERE,     71, DP does not exist, _Connections.Dde.StartTimes:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.764, PARAM,SEVERE,     71, DP does not exist, _Connections.Dde.HostNames:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.764, PARAM,SEVERE,     71, DP does not exist, _Connections.Dist.ManNums:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.765, PARAM,SEVERE,     71, DP does not exist, _Connections.Dist.StartTimes:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.765, PARAM,SEVERE,     71, DP does not exist, _Connections.Dist.HostNames:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.765, SYS,  SEVERE,    105, Invalid license, Igor-PC: No license found
+WCCILevent   (0), 2017.10.31 20:20:13.766, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2017.10.31 20:20:13.766, SYS,  INFO,      169, Initialize 0 dp-functions
+WCCILevent   (0), 2017.10.31 20:20:13.766, SYS,  INFO,      168, Initialize 0 alerts
+WCCILevent   (0), 2017.10.31 20:20:13.766, PARAM,WARNING,     7, Datapoint does not exist, EvFixedLicenses, EvFixedLicenses, _Event.License.FixedShield
+WCCILevent   (0), 2017.10.31 20:20:13.766, PARAM,WARNING,     7, Datapoint does not exist, UserTable, UserTable, _Users.UserId
+WCCILevent   (0), 2017.10.31 20:20:13.767, PARAM,WARNING,     7, Datapoint does not exist, ManagerTable, ManagerTable, _Managers.Auth.ManType
+WCCILevent   (0), 2017.10.31 20:20:13.767, PARAM,WARNING,     7, Datapoint does not exist, EventManager, doDpConnect, _System.Auth.DpType:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.767, PARAM,WARNING,     7, Datapoint does not exist, EventManager, doDpConnect, _System.Auth.Dp:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.767, PARAM,WARNING,     7, Datapoint does not exist, EventManager, doDpConnect, _System.Auth.DpAuth:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.767, PARAM,WARNING,     7, Datapoint does not exist, EventManager, doDpConnect, _System.Auth.DpAlias:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.767, PARAM,WARNING,     7, Datapoint does not exist, EventManager, dpDpConnect, _Event.ReadLicense
+WCCILevent   (0), 2017.10.31 20:20:13.767, PARAM,WARNING,     8, Element does not exist, EventManager, doDpConnect, _Managers.Exit
+WCCILevent   (0), 2017.10.31 20:20:13.767, PARAM,WARNING,     8, Element does not exist, EventManager, doDpConnect, _Managers.Refresh
+WCCILevent   (0), 2017.10.31 20:20:13.767, PARAM,WARNING,     7, Datapoint does not exist, EventManager, evMain, _Event.License.ExpirationCnt
+WCCILevent   (0), 2017.10.31 20:20:13.767, PARAM,WARNING,     7, Datapoint does not exist, EventManager, evMain, _Event.License.RemainingTime
+WCCILevent   (0), 2017.10.31 20:20:13.767, PARAM,WARNING,     7, Datapoint does not exist, EventManager, evMain, _Event.License.alm.isRTILInvalid:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.767, PARAM,WARNING,     7, Datapoint does not exist, EventManager, evMain, _Event.License.alm.isPVSSInvalid:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.767, PARAM,WARNING,     7, Datapoint does not exist, EventManager, evMain, _Event.License.alm.shield:_original.._value
+WCCILevent   (0), 2017.10.31 20:20:13.767, SYS,  SEVERE,    105, Invalid license, Eventmanager will shutdown after the demo period of 1800 seconds
+WCCILevent   (0), 2017.10.31 20:20:13.834, SYS,  WARNING,   105, Invalid license, Igor-PC: No license found, Running as demo version, driver
+WCCILevent   (0), 2017.10.31 20:20:13.834, SYS,  INFO,        4, Connected to, (SYS: 1 Driver -num 1 CONN: 1) @ Igor-PC (::ffff:127.0.0.1)
+WCCILevent   (0), 2017.10.31 20:20:13.837, PARAM,WARNING,     7, Datapoint does not exist, DP: :_original.._value, MAN: (SYS: 1 Driver -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:13.837, PARAM,WARNING,     7, Datapoint does not exist, DP: :_original.._value, MAN: (SYS: 1 Driver -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:13.837, PARAM,WARNING,     7, Datapoint does not exist, DP: :_original.._value, MAN: (SYS: 1 Driver -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:13.837, PARAM,WARNING,     7, Datapoint does not exist, DP: :_original.._value, MAN: (SYS: 1 Driver -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:13.902, SYS,  WARNING,   105, Invalid license, Igor-PC: No license found, Running as demo version, ascii
+WCCILevent   (0), 2017.10.31 20:20:13.902, SYS,  INFO,        4, Connected to, (SYS: 1 Ascii -num 1 CONN: 1) @ Igor-PC (::ffff:127.0.0.1)
+WCCILevent   (0), 2017.10.31 20:20:22.320, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection reset by peer (10054)
+WCCILevent   (0), 2017.10.31 20:20:22.393, SYS,  WARNING,   105, Invalid license, Igor-PC: No license found, Running as demo version, ascii
+WCCILevent   (0), 2017.10.31 20:20:22.394, SYS,  INFO,        4, Connected to, (SYS: 1 Ascii -num 1 CONN: 1) @ Igor-PC (::ffff:127.0.0.1)
+WCCILevent   (0), 2017.10.31 20:20:22.642, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection reset by peer (10054)
+WCCILevent   (0), 2017.10.31 20:20:22.711, SYS,  WARNING,   105, Invalid license, Igor-PC: No license found, Running as demo version, ascii
+WCCILevent   (0), 2017.10.31 20:20:22.711, SYS,  INFO,        4, Connected to, (SYS: 1 Ascii -num 1 CONN: 1) @ Igor-PC (::ffff:127.0.0.1)
+WCCILevent   (0), 2017.10.31 20:20:23.484, PARAM,WARNING,    90, DP attribute was connected twice, DP: System1:_DpGroup00001_Public.:_original, MAN: (SYS: 1 Event -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:23.487, PARAM,WARNING,    90, DP attribute was connected twice, DP: System1:_DpGroup00002_Public.:_original, MAN: (SYS: 1 Event -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:23.490, PARAM,WARNING,    90, DP attribute was connected twice, DP: System1:_DpGroup00003_Public.:_original, MAN: (SYS: 1 Event -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:23.494, PARAM,WARNING,    90, DP attribute was connected twice, DP: System1:_DpGroup00004_Public.:_original, MAN: (SYS: 1 Event -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:23.497, PARAM,WARNING,    90, DP attribute was connected twice, DP: System1:_DpGroup00005_Public.:_original, MAN: (SYS: 1 Event -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:23.500, PARAM,WARNING,    90, DP attribute was connected twice, DP: System1:_DpGroup00006_Public.:_original, MAN: (SYS: 1 Event -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:23.503, PARAM,WARNING,    90, DP attribute was connected twice, DP: System1:_DpGroup00007_Public.:_original, MAN: (SYS: 1 Event -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:23.506, PARAM,WARNING,    90, DP attribute was connected twice, DP: System1:_DpGroup00008_Public.:_original, MAN: (SYS: 1 Event -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:23.510, PARAM,WARNING,    90, DP attribute was connected twice, DP: System1:_DpGroup00009_Public.:_original, MAN: (SYS: 1 Event -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:23.513, PARAM,WARNING,    90, DP attribute was connected twice, DP: System1:_DpGroup00010_Public.:_original, MAN: (SYS: 1 Event -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:23.517, PARAM,WARNING,    90, DP attribute was connected twice, DP: System1:_DpGroup00011_Public.:_original, MAN: (SYS: 1 Event -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:23.520, PARAM,WARNING,    90, DP attribute was connected twice, DP: System1:_DpGroup00012_Public.:_original, MAN: (SYS: 1 Event -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:23.524, PARAM,WARNING,    90, DP attribute was connected twice, DP: System1:_DpGroup00013_Public.:_original, MAN: (SYS: 1 Event -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:23.527, PARAM,WARNING,    90, DP attribute was connected twice, DP: System1:_DpGroup00014_Public.:_original, MAN: (SYS: 1 Event -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:23.531, PARAM,WARNING,    90, DP attribute was connected twice, DP: System1:_DpGroup00015_Public.:_original, MAN: (SYS: 1 Event -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:23.534, PARAM,WARNING,    90, DP attribute was connected twice, DP: System1:_DpGroup00016_Public.:_original, MAN: (SYS: 1 Event -num 1 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:23.999, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection reset by peer (10054)
+WCCILevent   (0), 2017.10.31 20:20:24.072, SYS,  WARNING,   105, Invalid license, Igor-PC: No license found, Running as demo version, ascii
+WCCILevent   (0), 2017.10.31 20:20:24.072, SYS,  INFO,        4, Connected to, (SYS: 1 Ascii -num 1 CONN: 1) @ Igor-PC (::ffff:127.0.0.1)
+WCCILevent   (0), 2017.10.31 20:20:24.081, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection reset by peer (10054)
+WCCILevent   (0), 2017.10.31 20:20:24.153, SYS,  WARNING,   105, Invalid license, Igor-PC: No license found, Running as demo version, ascii
+WCCILevent   (0), 2017.10.31 20:20:24.154, SYS,  INFO,        4, Connected to, (SYS: 1 Ascii -num 1 CONN: 1) @ Igor-PC (::ffff:127.0.0.1)
+WCCILevent   (0), 2017.10.31 20:20:24.160, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection reset by peer (10054)
+WCCILevent   (0), 2017.10.31 20:20:24.228, SYS,  WARNING,   105, Invalid license, Igor-PC: No license found, Running as demo version, ascii
+WCCILevent   (0), 2017.10.31 20:20:24.229, SYS,  INFO,        4, Connected to, (SYS: 1 Ascii -num 1 CONN: 1) @ Igor-PC (::ffff:127.0.0.1)
+WCCILevent   (0), 2017.10.31 20:20:24.234, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection reset by peer (10054)
+WCCILevent   (0), 2017.10.31 20:20:24.304, SYS,  WARNING,   105, Invalid license, Igor-PC: No license found, Running as demo version, ascii
+WCCILevent   (0), 2017.10.31 20:20:24.305, SYS,  INFO,        4, Connected to, (SYS: 1 Ascii -num 1 CONN: 1) @ Igor-PC (::ffff:127.0.0.1)
+WCCILevent   (0), 2017.10.31 20:20:28.143, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection reset by peer (10054)
+WCCILevent   (0), 2017.10.31 20:20:28.244, SYS,  WARNING,   105, Invalid license, Igor-PC: No license found, Running as demo version, ascii
+WCCILevent   (0), 2017.10.31 20:20:28.244, SYS,  INFO,        4, Connected to, (SYS: 1 Ascii -num 1 CONN: 1) @ Igor-PC (::ffff:127.0.0.1)
+WCCILevent   (0), 2017.10.31 20:20:28.250, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection reset by peer (10054)
+WCCILevent   (0), 2017.10.31 20:20:28.332, SYS,  WARNING,   105, Invalid license, Igor-PC: No license found, Running as demo version, ascii
+WCCILevent   (0), 2017.10.31 20:20:28.333, SYS,  INFO,        4, Connected to, (SYS: 1 Ascii -num 1 CONN: 1) @ Igor-PC (::ffff:127.0.0.1)
+WCCILevent   (0), 2017.10.31 20:20:28.422, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection reset by peer (10054)
+WCCILevent   (0), 2017.10.31 20:20:28.507, SYS,  WARNING,   105, Invalid license, Igor-PC: No license found, Running as demo version, ascii
+WCCILevent   (0), 2017.10.31 20:20:28.507, SYS,  INFO,        4, Connected to, (SYS: 1 Ascii -num 1 CONN: 1) @ Igor-PC (::ffff:127.0.0.1)
+WCCILevent   (0), 2017.10.31 20:20:28.512, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection reset by peer (10054)
+WCCILevent   (0), 2017.10.31 20:20:30.529, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2017.10.31 20:20:30.535, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILevent   (0), 2017.10.31 20:20:30.630, SYS,  INFO,        2, Manager Stop, start cleanup
+WCCILevent   (0), 2017.10.31 20:20:30.630, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILevent   (0), 2017.10.31 20:20:30.640, SYS,  INFO,        2, Manager Stop
