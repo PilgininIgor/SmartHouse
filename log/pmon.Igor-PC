@@ -20,3 +20,175 @@ WCCILpmon    (1), 2017.10.31 20:37:19.510, SYS,  INFO,       17/pmon, Stopping M
 WCCILpmon    (1), 2017.10.31 20:37:19.511, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
 WCCILpmon    (1), 2017.10.31 20:37:19.512, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
 WCCILpmon    (1), 2017.10.31 20:37:19.512, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2017.10.31 21:19:50.345, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2017.10.31 21:19:50.846, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILdata.exe -PROJ SmartHouse -pmonIndex 1 
+WCCILpmon    (1), 2017.10.31 21:20:05.282, SYS,  INFO,       11/pmon, Detected stopped manager WCCILdata(0) - restarting it #1
+WCCILpmon    (1), 2017.10.31 21:20:05.287, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILdata.exe -PROJ SmartHouse -pmonIndex 1 
+WCCILpmon    (1), 2017.10.31 21:20:05.971, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 2 -num 0
+WCCILpmon    (1), 2017.10.31 21:20:06.175, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 3 -num 1
+WCCILpmon    (1), 2017.10.31 21:20:06.378, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 4 -num 2
+WCCILpmon    (1), 2017.10.31 21:20:06.582, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 5 -num 3
+WCCILpmon    (1), 2017.10.31 21:20:06.786, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 6 -num 4
+WCCILpmon    (1), 2017.10.31 21:20:06.991, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 7 -num 5
+WCCILpmon    (1), 2017.10.31 21:20:12.172, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILpmon    (1), 2017.10.31 21:20:12.521, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 9 -f pvss_scripts.lst
+WCCILpmon    (1), 2017.10.31 21:20:12.803, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 10 
+WCCILpmon    (1), 2017.10.31 21:20:13.008, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAui.exe -PROJ SmartHouse -pmonIndex 11 -m gedi
+WCCILpmon    (1), 2017.10.31 21:20:13.308, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2017.10.31 21:20:31.882, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2017.10.31 21:20:31.883, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2017.10.31 21:20:31.883, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2017.10.31 21:20:31.884, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2017.10.31 21:20:31.885, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2017.10.31 21:20:31.885, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2017.10.31 21:20:31.886, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2017.10.31 21:20:31.887, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2017.10.31 21:20:31.888, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2017.10.31 21:20:39.992, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2017.10.31 21:20:40.093, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2017.10.31 21:20:42.993, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2017.10.31 21:20:42.994, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2017.10.31 21:52:44.342, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2017.10.31 21:52:44.467, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILdata.exe -PROJ SmartHouse -pmonIndex 1 
+WCCILpmon    (1), 2017.10.31 21:52:46.101, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 2 -num 0
+WCCILpmon    (1), 2017.10.31 21:52:46.305, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 3 -num 1
+WCCILpmon    (1), 2017.10.31 21:52:46.510, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 4 -num 2
+WCCILpmon    (1), 2017.10.31 21:52:46.713, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 5 -num 3
+WCCILpmon    (1), 2017.10.31 21:52:46.913, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 6 -num 4
+WCCILpmon    (1), 2017.10.31 21:52:47.216, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 7 -num 5
+WCCILpmon    (1), 2017.10.31 21:52:50.326, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILpmon    (1), 2017.10.31 21:52:50.829, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 9 -f pvss_scripts.lst
+WCCILpmon    (1), 2017.10.31 21:52:51.037, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 10 
+WCCILpmon    (1), 2017.10.31 21:52:51.440, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAui.exe -PROJ SmartHouse -pmonIndex 11 -m gedi
+WCCILpmon    (1), 2017.10.31 21:52:51.741, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2017.10.31 23:04:36.002, SYS,  WARNING,    36/pmon, Blocking Manager WCCILdata(0) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2017.10.31 23:04:36.003, SYS,  WARNING,    36/pmon, Blocking Manager WCCOActrl(1) detected. No heartbeat since 30 seconds.
+WCCILpmon    (1), 2017.10.31 23:04:36.204, SYS,  WARNING,    39/pmon, Manager WCCILdata(0) is no longer blocking.
+WCCILpmon    (1), 2017.10.31 23:04:36.405, SYS,  WARNING,    39/pmon, Manager WCCOActrl(1) is no longer blocking.
+WCCILpmon    (1), 2017.10.31 23:22:49.294, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2017.10.31 23:22:49.298, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILpmon    (1), 2017.10.31 23:22:52.307, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2017.10.31 23:22:52.310, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 10 
+WCCILpmon    (1), 2017.10.31 23:22:53.418, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2017.10.31 23:22:53.421, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 9 -f pvss_scripts.lst
+WCCILpmon    (1), 2017.10.31 23:25:05.614, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOAui(1) at index 11
+WCCILpmon    (1), 2017.10.31 23:25:09.544, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 11
+WCCILpmon    (1), 2017.10.31 23:25:09.547, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAui.exe -PROJ SmartHouse -pmonIndex 11 -m gedi
+WCCILpmon    (1), 2017.10.31 23:52:51.086, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2017.10.31 23:52:51.116, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILpmon    (1), 2017.10.31 23:52:51.995, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2017.10.31 23:52:52.007, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 10 
+WCCILpmon    (1), 2017.10.31 23:52:53.009, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2017.10.31 23:52:53.027, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 9 -f pvss_scripts.lst
+WCCILpmon    (1), 2017.11.01 00:22:52.042, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2017.11.01 00:22:52.226, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILpmon    (1), 2017.11.01 00:22:54.056, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2017.11.01 00:22:54.059, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 9 -f pvss_scripts.lst
+WCCILpmon    (1), 2017.11.01 00:22:54.160, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2017.11.01 00:22:54.170, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 10 
+WCCILpmon    (1), 2017.11.01 00:41:19.130, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2017.11.01 00:41:19.130, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILpmon    (1), 2017.11.01 00:41:23.206, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2017.11.01 00:41:23.206, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 9 -f pvss_scripts.lst
+WCCILpmon    (1), 2017.11.01 00:41:24.209, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2017.11.01 00:41:24.209, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 10 
+WCCILpmon    (1), 2017.11.01 00:41:24.413, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAvalarch(4) - restarting it #1
+WCCILpmon    (1), 2017.11.01 00:41:24.453, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 6 -num 4
+WCCILpmon    (1), 2017.11.01 00:41:24.560, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAvalarch(5) - restarting it #1
+WCCILpmon    (1), 2017.11.01 00:41:24.560, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 7 -num 5
+WCCILpmon    (1), 2017.11.01 00:41:24.668, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #2
+WCCILpmon    (1), 2017.11.01 00:41:24.668, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILpmon    (1), 2017.11.01 20:31:30.521, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2017.11.01 20:31:33.206, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILdata.exe -PROJ SmartHouse -pmonIndex 1 
+WCCILpmon    (1), 2017.11.01 20:32:08.116, SYS,  INFO,       11/pmon, Detected stopped manager WCCILdata(0) - restarting it #1
+WCCILpmon    (1), 2017.11.01 20:32:08.256, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILdata.exe -PROJ SmartHouse -pmonIndex 1 
+WCCILpmon    (1), 2017.11.01 20:32:19.247, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 2 -num 0
+WCCILpmon    (1), 2017.11.01 20:32:19.659, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 3 -num 1
+WCCILpmon    (1), 2017.11.01 20:32:19.976, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 4 -num 2
+WCCILpmon    (1), 2017.11.01 20:32:20.282, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 5 -num 3
+WCCILpmon    (1), 2017.11.01 20:32:29.905, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 6 -num 4
+WCCILpmon    (1), 2017.11.01 20:32:30.111, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 7 -num 5
+WCCILpmon    (1), 2017.11.01 20:32:35.409, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILpmon    (1), 2017.11.01 20:32:37.459, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 9 -f pvss_scripts.lst
+WCCILpmon    (1), 2017.11.01 20:32:38.308, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 10 
+WCCILpmon    (1), 2017.11.01 20:32:38.814, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAui.exe -PROJ SmartHouse -pmonIndex 11 -m gedi
+WCCILpmon    (1), 2017.11.01 20:32:39.115, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2017.11.01 20:33:32.585, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2017.11.01 20:33:32.586, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 20:33:32.586, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 20:33:32.587, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 20:33:32.588, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 20:33:32.588, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 20:33:32.589, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 20:33:32.590, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 20:33:32.591, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 20:33:41.595, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2017.11.01 20:33:41.702, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 3 -num 1
+WCCILpmon    (1), 2017.11.01 20:33:41.885, SYS,  INFO,       11/pmon, Detected stopped manager WCCOAvalarch(0) - restarting it #1
+WCCILpmon    (1), 2017.11.01 20:33:41.890, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 2 -num 0
+WCCILpmon    (1), 2017.11.01 20:33:41.995, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 4 -num 2
+WCCILpmon    (1), 2017.11.01 20:33:42.246, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 5 -num 3
+WCCILpmon    (1), 2017.11.01 20:33:42.448, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 6 -num 4
+WCCILpmon    (1), 2017.11.01 20:33:42.651, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 7 -num 5
+WCCILpmon    (1), 2017.11.01 20:33:42.853, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 9 -f pvss_scripts.lst
+WCCILpmon    (1), 2017.11.01 20:33:43.056, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 10 
+WCCILpmon    (1), 2017.11.01 20:33:43.258, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAui.exe -PROJ SmartHouse -pmonIndex 11 -m gedi
+WCCILpmon    (1), 2017.11.01 20:33:45.870, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2017.11.01 20:45:03.772, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2017.11.01 20:45:03.773, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 20:45:03.773, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 20:45:03.774, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 20:45:03.775, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 20:45:03.775, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 20:45:03.776, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 20:45:03.777, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 20:45:03.777, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 20:46:25.491, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2017.11.01 20:46:25.597, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 2 -num 0
+WCCILpmon    (1), 2017.11.01 20:46:25.737, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 3 -num 1
+WCCILpmon    (1), 2017.11.01 20:46:25.853, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 4 -num 2
+WCCILpmon    (1), 2017.11.01 20:46:26.101, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 5 -num 3
+WCCILpmon    (1), 2017.11.01 20:46:26.304, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 6 -num 4
+WCCILpmon    (1), 2017.11.01 20:46:26.507, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 7 -num 5
+WCCILpmon    (1), 2017.11.01 20:46:26.710, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 9 -f pvss_scripts.lst
+WCCILpmon    (1), 2017.11.01 20:46:26.913, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 10 
+WCCILpmon    (1), 2017.11.01 20:46:27.116, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAui.exe -PROJ SmartHouse -pmonIndex 11 -m gedi
+WCCILpmon    (1), 2017.11.01 20:46:29.633, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2017.11.01 21:02:36.874, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2017.11.01 21:02:36.879, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILpmon    (1), 2017.11.01 21:02:38.880, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2017.11.01 21:02:38.883, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 9 -f pvss_scripts.lst
+WCCILpmon    (1), 2017.11.01 21:02:38.985, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2017.11.01 21:02:38.988, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 10 
+WCCILpmon    (1), 2017.11.01 21:02:56.181, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 11
+WCCILpmon    (1), 2017.11.01 21:02:56.184, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAui.exe -PROJ SmartHouse -pmonIndex 11 -m gedi
+WCCILpmon    (1), 2017.11.01 21:03:06.159, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOAui(1) at index 11
+WCCILpmon    (1), 2017.11.01 21:12:30.425, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 11
+WCCILpmon    (1), 2017.11.01 21:12:30.428, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOAui.exe -PROJ SmartHouse -pmonIndex 11 -m gedi
+WCCILpmon    (1), 2017.11.01 21:32:39.281, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2017.11.01 21:32:39.291, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILpmon    (1), 2017.11.01 21:32:41.294, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2017.11.01 21:32:41.296, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 9 -f pvss_scripts.lst
+WCCILpmon    (1), 2017.11.01 21:32:42.307, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2017.11.01 21:32:42.311, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 10 
+WCCILpmon    (1), 2017.11.01 22:02:39.959, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2017.11.01 22:02:39.961, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILpmon    (1), 2017.11.01 22:02:41.972, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2017.11.01 22:02:41.975, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 10 
+WCCILpmon    (1), 2017.11.01 22:02:42.985, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2017.11.01 22:02:42.988, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 9 -f pvss_scripts.lst
+WCCILpmon    (1), 2017.11.01 22:32:40.590, SYS,  INFO,       11/pmon, Detected stopped manager WCCILevent(0) - restarting it #1
+WCCILpmon    (1), 2017.11.01 22:32:40.606, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILpmon    (1), 2017.11.01 22:32:42.603, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2017.11.01 22:32:42.606, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 10 
+WCCILpmon    (1), 2017.11.01 22:32:43.606, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(1) - restarting it #1
+WCCILpmon    (1), 2017.11.01 22:32:43.609, SYS,  INFO,        1, Manager Start, C:\Siemens\Automation\WinCC_OA\3.11\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 9 -f pvss_scripts.lst
+WCCILpmon    (1), 2017.11.01 22:39:34.167, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2017.11.01 22:39:34.168, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 22:39:34.168, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 22:39:34.169, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 22:39:34.170, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 22:39:34.171, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 22:39:34.172, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 22:39:34.173, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2017.11.01 22:39:34.173, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM

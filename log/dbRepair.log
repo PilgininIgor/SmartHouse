@@ -1,0 +1,1357 @@
+
+#############################################
+## DATA BASE REPAIR with parameter "last" requested on 2017.10.31;21:19:51:005 
+########### CHECKING DATABASE : C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\ValHist
+ Command: C:\Siemens\Automation\WinCC_OA\3.11\bin\dbcheck -a -k -t C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\ValHist
+Raima Database Manager 4.5 [Build 17]
+Database Consistency Check Utility
+Copyright (C) 1984-1997, Raima Corporation, All Rights Reserved
+
+----------------------------------------------------------------
+
+Processing key file: vblklong.key(32), total of 1 node
+
+
+------------------------------------------------------------------------
+
+Processing key file: vblkflt.key(33), total of 1 node
+
+
+------------------------------------------------------------------------
+
+Processing key file: vblkptr.key(34), total of 1 node
+
+
+------------------------------------------------------------------------
+
+Processing key file: lastlong.key(35), total of 47 nodes
+
+Problems at node 2:
+  * key field LASTLONGVALUEKEY(154) error:
+    slot 0's record-dba=[29:3331] is invalid
+  * key field LASTLONGVALUEKEY(154) error:
+    slot 1's record-dba=[29:3323] is invalid
+  * key field LASTLONGVALUEKEY(154) error:
+    slot 5's record-dba=[29:3330] is invalid
+  * key field LASTLONGVALUEKEY(154) error:
+    slot 6's record-dba=[29:3329] is invalid
+  * key field LASTLONGVALUEKEY(154) error:
+    slot 14's record-dba=[29:3328] is invalid
+  * key field LASTLONGVALUEKEY(154) error:
+    slot 15's record-dba=[29:3327] is invalid
+  * key field LASTLONGVALUEKEY(154) error:
+    slot 16's record-dba=[29:3326] is invalid
+  * key field LASTLONGVALUEKEY(154) error:
+    slot 17's record-dba=[29:3325] is invalid
+  * key field LASTLONGVALUEKEY(154) error:
+    slot 18's record-dba=[29:3324] is invalid
+
+
+------------------------------------------------------------------------
+
+Processing key file: lastflt.key(36), total of 1 node
+
+
+------------------------------------------------------------------------
+
+Processing key file: lastptr.key(37), total of 24 nodes
+
+Problems at node 2:
+  * key field LASTPTRVALUEKEY(223) error:
+    slot 2's record-dba=[31:1962] is invalid
+  * key field LASTPTRVALUEKEY(223) error:
+    slot 9's record-dba=[31:1961] is invalid
+  * key field LASTPTRVALUEKEY(223) error:
+    slot 17's record-dba=[31:1960] is invalid
+  * key field LASTPTRVALUEKEY(223) error:
+    slot 18's record-dba=[31:1959] is invalid
+
+
+------------------------------------------------------------------------
+
+Processing data file: vbitvar.db(0), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vbit32va.db(1), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vcharvar.db(2), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vintvar.db(3), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vuintvar.db(4), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vfltvar.db(5), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vtxtvar.db(6), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vtimvar.db(7), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vdynvar.db(8), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vdpidvar.db(9), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vlngvar.db(10), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vulngvar.db(11), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vbit64va.db(12), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lbitvar.db(13), total of 334 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lbit32va.db(14), total of 26 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lcharvar.db(15), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lintvar.db(16), total of 412 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: luintvar.db(17), total of 2245 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lfltvar.db(18), total of 148 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: ltxtvar.db(19), total of 7214 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: ltimvar.db(20), total of 657 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: ldynvar.db(21), total of 9826 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: ldpidvar.db(22), total of 32 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: llngvar.db(23), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lulngvar.db(24), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lbit64va.db(25), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vblklong.db(26), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vblkflt.db(27), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vblkptr.db(28), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lastlong.db(29), total of 3322 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lastflt.db(30), total of 43 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lastptr.db(31), total of 1958 records
+
+
+Database consistency check completed
+
+13 errors were encountered in 2 records/nodes
+########### REPAIRING DATABASE : C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\ValHist
+Raima Database Manager 4.5 [Build 17]
+Delete Chain Sort Utility
+Copyright (C) 1984-1997, Raima Corporation, All Rights Reserved
+
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vbitvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vbit32va.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vcharvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vintvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vuintvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vfltvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vtxtvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vtimvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vdynvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vdpidvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vlngvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vulngvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vbit64va.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lbitvar.db, maximum slot count =     335
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lbit32va.db, maximum slot count =      27
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lcharvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lintvar.db, maximum slot count =     413
+      3 deleted record slots sorted
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\luintvar.db, maximum slot count =    2246
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lfltvar.db, maximum slot count =     149
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\ltxtvar.db, maximum slot count =    7215
+      2 deleted record slots sorted
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\ltimvar.db, maximum slot count =     658
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\ldynvar.db, maximum slot count =    9827
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\ldpidvar.db, maximum slot count =      33
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\llngvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lulngvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lbit64va.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vblklong.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vblkflt.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vblkptr.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lastlong.db, maximum slot count =    3332
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lastflt.db, maximum slot count =      44
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lastptr.db, maximum slot count =    1963
+      no deleted record slots
+
+delete chain sort completed
+Raima Database Manager 4.5 [Build 17]
+Key File Build Utility
+Copyright (C) 1984-1997, Raima Corporation, All Rights Reserved
+
+initializing key file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vblklong.key
+initializing key file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vblkflt.key
+initializing key file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vblkptr.key
+initializing key file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lastlong.key
+initializing key file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lastflt.key
+initializing key file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lastptr.key
+
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vblklong.db, total records =       0
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vblkflt.db, total records =       0
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vblkptr.db, total records =       0
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lastlong.db, total records =    3331
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lastflt.db, total records =      43
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lastptr.db, total records =    1962
+
+key file rebuild completed
+########### CHECKING DATABASE : C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\ValHist
+ Command: C:\Siemens\Automation\WinCC_OA\3.11\bin\dbcheck -a -k -t C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\ValHist
+Raima Database Manager 4.5 [Build 17]
+Database Consistency Check Utility
+Copyright (C) 1984-1997, Raima Corporation, All Rights Reserved
+
+----------------------------------------------------------------------
+
+Processing key file: vblkflt.key(33), total of 1 node
+
+
+------------------------------------------------------------------------
+
+Processing key file: vblkptr.key(34), total of 1 node
+
+
+------------------------------------------------------------------------
+
+Processing key file: lastlong.key(35), total of 47 nodes
+
+
+------------------------------------------------------------------------
+
+Processing key file: lastflt.key(36), total of 1 node
+
+
+------------------------------------------------------------------------
+
+Processing key file: lastptr.key(37), total of 24 nodes
+
+
+------------------------------------------------------------------------
+
+Processing data file: vbitvar.db(0), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vbit32va.db(1), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vcharvar.db(2), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vintvar.db(3), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vuintvar.db(4), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vfltvar.db(5), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vtxtvar.db(6), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vtimvar.db(7), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vdynvar.db(8), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vdpidvar.db(9), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vlngvar.db(10), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vulngvar.db(11), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vbit64va.db(12), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lbitvar.db(13), total of 334 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lbit32va.db(14), total of 26 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lcharvar.db(15), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lintvar.db(16), total of 412 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: luintvar.db(17), total of 2245 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lfltvar.db(18), total of 148 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: ltxtvar.db(19), total of 7214 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: ltimvar.db(20), total of 657 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: ldynvar.db(21), total of 9826 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: ldpidvar.db(22), total of 32 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: llngvar.db(23), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lulngvar.db(24), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lbit64va.db(25), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vblklong.db(26), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vblkflt.db(27), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vblkptr.db(28), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lastlong.db(29), total of 3331 records
+
+Problems at record 3323:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3324:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3325:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3326:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3327:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3328:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3329:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3330:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3331:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+
+------------------------------------------------------------------------
+
+Processing data file: lastflt.db(30), total of 43 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lastptr.db(31), total of 1962 records
+
+Problems at record 1959:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 1960:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 1961:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 1962:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+
+Database consistency check completed
+
+26 errors were encountered in 13 records/nodes
+########### CHECKING DATABASE : C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\alliving\AlertHist
+ Command: C:\Siemens\Automation\WinCC_OA\3.11\bin\dbcheck -a -k -t C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\alliving\AlertHist
+Raima Database Manager 4.5 [Build 17]
+Database Consistency Check Utility
+Copyright (C) 1984-1997, Raima Corporation, All Rights Reserved
+
+--------------------------------------------------------------------
+
+Processing key file: alertrd.key(2), total of 1 node
+
+
+------------------------------------------------------------------------
+
+Processing key file: alertpr.key(3), total of 1 node
+
+
+------------------------------------------------------------------------
+
+Processing data file: alertrec.db(0), total of 1 record
+
+
+------------------------------------------------------------------------
+
+Processing data file: abitvar.db(4), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: abit32va.db(5), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: acharvar.db(6), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: aintvar.db(7), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: auintvar.db(8), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: afltvar.db(9), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: atxtvar.db(10), total of 3 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: atimvar.db(11), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: adynvar.db(12), total of 2 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: adpidvar.db(13), total of 1 record
+
+
+------------------------------------------------------------------------
+
+Processing data file: alngvar.db(14), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: aulngvar.db(15), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: abit64va.db(16), total of 0 records
+
+
+Database consistency check completed
+
+0 errors were encountered in 0 records/nodes
+########### RUNNING KEYBUILD IN DATABASE : C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\alliving\AlertHist
+ Command: C:\Siemens\Automation\WinCC_OA\3.11\bin\keybuild C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\alliving\AlertHist
+Raima Database Manager 4.5 [Build 17]
+Key File Build Utility
+Copyright (C) 1984-1997, Raima Corporation, All Rights Reserved
+
+initializing key file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\alliving\alertrg.key
+initializing key file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\alliving\alertrd.key
+initializing key file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\alliving\alertpr.key
+
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\alliving\alertrec.db, total records =       1
+
+key file rebuild completed
+
+#############################################
+## DATA BASE REPAIR with parameter "last" requested on 2017.11.01;20:31:34:225 
+########### CHECKING DATABASE : C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\ValHist
+ Command: C:\Siemens\Automation\WinCC_OA\3.11\bin\dbcheck -a -k -t C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\ValHist
+Raima Database Manager 4.5 [Build 17]
+Database Consistency Check Utility
+Copyright (C) 1984-1997, Raima Corporation, All Rights Reserved
+
+----------------------------------------------------------------------
+
+Processing key file: vblkflt.key(33), total of 1 node
+
+
+------------------------------------------------------------------------
+
+Processing key file: vblkptr.key(34), total of 1 node
+
+
+------------------------------------------------------------------------
+
+Processing key file: lastlong.key(35), total of 47 nodes
+
+
+------------------------------------------------------------------------
+
+Processing key file: lastflt.key(36), total of 1 node
+
+
+------------------------------------------------------------------------
+
+Processing key file: lastptr.key(37), total of 25 nodes
+
+
+------------------------------------------------------------------------
+
+Processing data file: vbitvar.db(0), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vbit32va.db(1), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vcharvar.db(2), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vintvar.db(3), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vuintvar.db(4), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vfltvar.db(5), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vtxtvar.db(6), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vtimvar.db(7), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vdynvar.db(8), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vdpidvar.db(9), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vlngvar.db(10), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vulngvar.db(11), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vbit64va.db(12), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lbitvar.db(13), total of 334 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lbit32va.db(14), total of 27 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lcharvar.db(15), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lintvar.db(16), total of 412 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: luintvar.db(17), total of 2245 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lfltvar.db(18), total of 148 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: ltxtvar.db(19), total of 7222 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: ltimvar.db(20), total of 663 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: ldynvar.db(21), total of 9855 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: ldpidvar.db(22), total of 58 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: llngvar.db(23), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lulngvar.db(24), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lbit64va.db(25), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vblklong.db(26), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vblkflt.db(27), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vblkptr.db(28), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lastlong.db(29), total of 3350 records
+
+Problems at record 3323:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3324:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3325:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3326:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3327:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3328:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3329:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3330:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3331:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+
+------------------------------------------------------------------------
+
+Processing data file: lastflt.db(30), total of 72 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lastptr.db(31), total of 1973 records
+
+Problems at record 1959:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 1960:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 1961:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 1962:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+
+Database consistency check completed
+
+26 errors were encountered in 13 records/nodes
+########### REPAIRING DATABASE : C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\ValHist
+Raima Database Manager 4.5 [Build 17]
+Delete Chain Sort Utility
+Copyright (C) 1984-1997, Raima Corporation, All Rights Reserved
+
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vbitvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vbit32va.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vcharvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vintvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vuintvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vfltvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vtxtvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vtimvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vdynvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vdpidvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vlngvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vulngvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vbit64va.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lbitvar.db, maximum slot count =     335
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lbit32va.db, maximum slot count =      28
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lcharvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lintvar.db, maximum slot count =     413
+      3 deleted record slots sorted
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\luintvar.db, maximum slot count =    2246
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lfltvar.db, maximum slot count =     149
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\ltxtvar.db, maximum slot count =    7223
+      3 deleted record slots sorted
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\ltimvar.db, maximum slot count =     664
+      2 deleted record slots sorted
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\ldynvar.db, maximum slot count =    9856
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\ldpidvar.db, maximum slot count =      59
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\llngvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lulngvar.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lbit64va.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vblklong.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vblkflt.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vblkptr.db, maximum slot count =       1
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lastlong.db, maximum slot count =    3351
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lastflt.db, maximum slot count =      73
+      no deleted record slots
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lastptr.db, maximum slot count =    1974
+      no deleted record slots
+
+delete chain sort completed
+Raima Database Manager 4.5 [Build 17]
+Key File Build Utility
+Copyright (C) 1984-1997, Raima Corporation, All Rights Reserved
+
+initializing key file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vblklong.key
+initializing key file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vblkflt.key
+initializing key file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vblkptr.key
+initializing key file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lastlong.key
+initializing key file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lastflt.key
+initializing key file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lastptr.key
+
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vblklong.db, total records =       0
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vblkflt.db, total records =       0
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\vblkptr.db, total records =       0
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lastlong.db, total records =    3350
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lastflt.db, total records =      72
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\lastptr.db, total records =    1973
+
+key file rebuild completed
+########### CHECKING DATABASE : C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\ValHist
+ Command: C:\Siemens\Automation\WinCC_OA\3.11\bin\dbcheck -a -k -t C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\lastval\ValHist
+Raima Database Manager 4.5 [Build 17]
+Database Consistency Check Utility
+Copyright (C) 1984-1997, Raima Corporation, All Rights Reserved
+
+----------------------------------------------------------------------
+
+Processing key file: vblkflt.key(33), total of 1 node
+
+
+------------------------------------------------------------------------
+
+Processing key file: vblkptr.key(34), total of 1 node
+
+
+------------------------------------------------------------------------
+
+Processing key file: lastlong.key(35), total of 47 nodes
+
+
+------------------------------------------------------------------------
+
+Processing key file: lastflt.key(36), total of 1 node
+
+
+------------------------------------------------------------------------
+
+Processing key file: lastptr.key(37), total of 25 nodes
+
+
+------------------------------------------------------------------------
+
+Processing data file: vbitvar.db(0), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vbit32va.db(1), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vcharvar.db(2), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vintvar.db(3), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vuintvar.db(4), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vfltvar.db(5), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vtxtvar.db(6), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vtimvar.db(7), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vdynvar.db(8), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vdpidvar.db(9), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vlngvar.db(10), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vulngvar.db(11), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vbit64va.db(12), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lbitvar.db(13), total of 334 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lbit32va.db(14), total of 27 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lcharvar.db(15), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lintvar.db(16), total of 412 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: luintvar.db(17), total of 2245 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lfltvar.db(18), total of 148 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: ltxtvar.db(19), total of 7222 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: ltimvar.db(20), total of 663 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: ldynvar.db(21), total of 9855 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: ldpidvar.db(22), total of 58 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: llngvar.db(23), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lulngvar.db(24), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lbit64va.db(25), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vblklong.db(26), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vblkflt.db(27), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: vblkptr.db(28), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lastlong.db(29), total of 3350 records
+
+Problems at record 3323:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3324:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3325:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3326:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3327:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3328:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3329:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3330:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 3331:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+
+------------------------------------------------------------------------
+
+Processing data file: lastflt.db(30), total of 72 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: lastptr.db(31), total of 1973 records
+
+Problems at record 1959:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 1960:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 1961:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+Problems at record 1962:
+  * record's id-number=0 is out of range or inappropriate for its file
+  * record's dba is inconsistent: [0:0]
+
+
+Database consistency check completed
+
+26 errors were encountered in 13 records/nodes
+########### CHECKING DATABASE : C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\alliving\AlertHist
+ Command: C:\Siemens\Automation\WinCC_OA\3.11\bin\dbcheck -a -k -t C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\alliving\AlertHist
+Raima Database Manager 4.5 [Build 17]
+Database Consistency Check Utility
+Copyright (C) 1984-1997, Raima Corporation, All Rights Reserved
+
+--------------------------------------------------------------------
+
+Processing key file: alertrd.key(2), total of 1 node
+
+
+------------------------------------------------------------------------
+
+Processing key file: alertpr.key(3), total of 1 node
+
+
+------------------------------------------------------------------------
+
+Processing data file: alertrec.db(0), total of 1 record
+
+
+------------------------------------------------------------------------
+
+Processing data file: abitvar.db(4), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: abit32va.db(5), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: acharvar.db(6), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: aintvar.db(7), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: auintvar.db(8), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: afltvar.db(9), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: atxtvar.db(10), total of 3 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: atimvar.db(11), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: adynvar.db(12), total of 2 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: adpidvar.db(13), total of 1 record
+
+
+------------------------------------------------------------------------
+
+Processing data file: alngvar.db(14), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: aulngvar.db(15), total of 0 records
+
+
+------------------------------------------------------------------------
+
+Processing data file: abit64va.db(16), total of 0 records
+
+
+Database consistency check completed
+
+0 errors were encountered in 0 records/nodes
+########### RUNNING KEYBUILD IN DATABASE : C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\alliving\AlertHist
+ Command: C:\Siemens\Automation\WinCC_OA\3.11\bin\keybuild C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\alliving\AlertHist
+Raima Database Manager 4.5 [Build 17]
+Key File Build Utility
+Copyright (C) 1984-1997, Raima Corporation, All Rights Reserved
+
+initializing key file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\alliving\alertrg.key
+initializing key file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\alliving\alertrd.key
+initializing key file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\alliving\alertpr.key
+
+processing data file: C:\Siemens\Automation\WinCC_OA\3.11\bin\SmartHouse\db\wincc_oa\alliving\alertrec.db, total records =       1
+
+key file rebuild completed
